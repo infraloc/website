@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logo-infraloc.svg" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="manifest" href="manisfest/manifest/manifest.json">
+
     <title>InfraLoc - Valorisez vos salles, facilitez vos événements</title>
 </head>
 <body>
@@ -15,8 +18,8 @@
         <nav>
             <a href="#decouverte">Découvrir InfraLoc</a>
             <a href="#">Abonnement</a>
-            <a href="#">FAQ</a>
-            <a href="#" class="connect-btn">Se connecter</a>
+            <a href="#faq">FAQ</a>
+            <a href="#" class="connect-btn">S'inscrire</a>
         </nav>
     </header>
     <main>
@@ -45,7 +48,7 @@
             <div class="left">
                 <h2>Découvrez tout ce que notre application peut faire pour vous</h2>
                 <div class="discover-text">
-                    <p>SimpliFiez la gestion de vos infrastructures, valorisez vos équipements et gagnez du temps avec notre solution intuitive.</p>
+                    <p>Simplifiez la gestion de vos infrastructures, valorisez vos équipements et gagnez du temps avec notre solution intuitive.</p>
                     <p>Facilitez l'accès à la réservation de salles et d'équipements en quelques clics, pour vos usagers, garantissant une organisation des événements fluides et efficaces.</p>
                 </div>
             </div>
@@ -58,7 +61,7 @@
                         </div>
                         <div class="feature-content">
                             <h3>Réservations simplifiées</h3>
-                            <p>Accédez à l'ensemble des disponibilités et réservez en quelques clics les ressources dont vous avez besoin pour vos événements.</p>
+                            <p class="haut">Accédez à l'ensemble des disponibilités et réservez en quelques clics les ressources dont vous avez besoin pour vos événements.</p>
                         </div>
                     </div>
                     <div class="feature-item">
@@ -67,7 +70,7 @@
                         </div>
                         <div class="feature-content">
                             <h3>Statistiques détaillées</h3>
-                            <p>Visualisez l'usage de vos infrastructures et équipements afin d'optimiser leur utilisation et de mieux planifier vos besoins.</p>
+                            <p class="haut">Visualisez l'usage de vos infrastructures et équipements afin d'optimiser leur utilisation et de mieux planifier vos besoins.</p>
                         </div>
                     </div>
                     <div class="feature-item">
@@ -107,7 +110,7 @@
             </div>
         </section>
 
-        <section class="section faq-section">
+        <section class="section faq-section"  id="faq">
             <h2>Foire aux questions</h2>
             <div class="faq-item">
                 <div class="faq-question" id="p-fonctionnement">
@@ -115,7 +118,7 @@
                     <span class="faq-icon" id="toggle-icon">+</span>
                 </div>
                 <div class="reponse">
-                    <p id="fonctionnement">L'utilisation InfraLoc est simple sélectionner votre salle dans notre </p>
+                    <p id="fonctionnement"><i>L'utilisation InfraLoc est simple sélectionner votre salle dans notre </i></p>
                 </div>
             </div>
             <div class="faq-item" id="p-who">
@@ -124,16 +127,16 @@
                     <span class="faq-icon" id="toggle-who">+</span>
                 </div>
                 <div class="reponse">
-                    <p id="who">L'utilisation InfraLoc est simple sélectionner votre salle dans notre </p>
+                    <p id="who"><i>L'utilisation InfraLoc est simple sélectionner votre salle dans notre </i></p>
                 </div>
             </div>
-            <div class="faq-item" >
+            <div class="faq-item">
                 <div class="faq-question" id="p-infra">
                     <p>Quels types d'infrastructures sont compatibles avec InfraLoc ?</p>
                     <span class="faq-icon" id="toggle-infra">+</span>
                 </div>
                 <div class="reponse">
-                    <p id="infra">L'utilisation InfraLoc est simple sélectionner votre salle dans notre </p>
+                    <p id="infra"><i>L'utilisation InfraLoc est simple sélectionner votre salle dans notre </i></p>
                 </div>
             </div>
             <div class="faq-item">
@@ -142,9 +145,9 @@
                     <span class="faq-icon" id="toggle-secu">+</span>
                 </div>
                 <div class="reponse">
-                    <p id="secu">Notre site garantit une sécurité totale à nos utilisateurs, que ce soit pour le stockage de leurs données personnelles ou pour les transactions de paiement.<br> Nous mettons un point d'honneur à protéger vos informations sensibles grâce à des protocoles de sécurité avancés. <br>
+                    <p id="secu"><i>Notre site garantit une sécurité totale à nos utilisateurs, que ce soit pour le stockage de leurs données personnelles ou pour les transactions de paiement.<br> Nous mettons un point d'honneur à protéger vos informations sensibles grâce à des protocoles de sécurité avancés. <br>
                         Toutes les données sont cryptées et sécurisées afin d'assurer une confidentialité absolue. De plus, 
-                        notre système de paiement est certifié et conforme aux normes les plus strictes en matière de sécurité financière, vous permettant de faire vos transactions en toute tranquillité d'esprit. Vous pouvez donc naviguer et acheter sur notre site en toute confiance.</p>
+                        notre système de paiement est certifié et conforme aux normes les plus strictes en matière de sécurité financière, vous permettant de faire vos transactions en toute tranquillité d'esprit. Vous pouvez donc naviguer et acheter sur notre site en toute confiance.</i></p>
                 </div>
             </div>
             <div class="faq-item">
@@ -153,53 +156,18 @@
                     <span class="faq-icon" id="toggle-how">+</span>
                 </div>
                 <div class="reponse">
-                    <p id="how">L'utilisation InfraLoc est simple sélectionner votre salle dans notre </p>
+                    <p id="how"><i>L'utilisation InfraLoc est simple sélectionner votre salle dans notre</i> </p>
                 </div>
             </div>
         </section>
 
-        <section class="section clients-section">
-            <h2>Les collectivités qui ont choisi notre solution</h2>
-            <div class="clients-carousel">
-                <div class="carousel-button prev-button">
-                    <span>&#10094;</span>
-                </div>
-                <div class="client-card">
-                    <img src="img/mairie-cabourg.jpg" alt="mairie-cabourg">
-                    <div class="client-name">CABOURG</div>
-                </div>
-                <div class="client-card">
-                    <img src="ville1.jpg" alt="Cherbourg">
-                    <div class="client-name">CHERBOURG</div>
-                </div>
-                <div class="client-card">
-                    <img src="ville2.jpg" alt="Caen">
-                    <div class="client-name">CAEN</div>
-                </div>
-                <div class="client-card">
-                    <img src="ville3.jpg" alt="Le Havre">
-                    <div class="client-name">LE HAVRE</div>
-                </div>
-                <div class="client-card">
-                    <img src="ville4.jpg" alt="Montpellier">
-                    <div class="client-name">MONTPELLIER</div>
-                </div>
-                <div class="client-card">
-                    <img src="ville5.jpg" alt="Nîmes">
-                    <div class="client-name">NÎMES</div>
-                </div>
-                <div class="carousel-button next-button">
-                    <span>&#10095;</span>
-                </div>
-            </div>
-        </section>
 
         <section class="section subscribe-section">
             <div class="subscribe-text">
                 <h2>Abonnez-vous à InfraLoc dès maintenant !</h2>
                 <p>Une solution qui répond à tous vos besoins d'infrastructures en toute simplicité.</p>
                 <div class="logos-container">
-                    <img src="logo-caen.png" alt="Caen">
+                    <img src="logo-caen.png" alt="Caen">§
                     <img src="logo-metropole.png" alt="Logo Métropole">
                     <img src="logo-region.png" alt="Logo Région">
                 </div>
@@ -221,7 +189,7 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group">
-                        <label for="entreprise">Entreprise</label>
+                        <label for="entreprise">Commune</label>
                         <input type="text" id="entreprise" name="entreprise">
                     </div>
                     <div class="form-group">
@@ -242,15 +210,28 @@
         </section>
     </div>
     
-    <!-- Footer -->
-    <footer>
-        <img src="img/logo-infraloc.svg" alt="InfraLoc" class="footer-logo">
-        <div class="footer-links">
-            <a href="#">Mentions Légales</a>
-            <a href="#">Conditions générales</a>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="/">
+                    <img src="img/logo-infraloc.svg" alt="InfraLoc Logo">
+                </a>
+            </div>
+            
+            <div class="footer-nav">
+                <a href="#">L'application</a>
+                <a href="#">Tarifs</a>
+                <a href="#faq">FAQ</a>
+            </div>
         </div>
-        <p>© 2025 InfraLoc. Tous droits réservés.</p>
-    </footer> 
+        
+        <div class="footer-bottom">
+            <a href="#">Conditions générales</a>
+            <span>© 2025 InfraLoc. Tout droits réservés</span>
+            <a href="#">Mentions légales</a>
+        </div>
+    </footer>
     <script src="js/app.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
