@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* --- RESET ET STYLES DE BASE --- */
+
+
+/* ====================================
+//  RRRR   EEEEE   SSS   EEEEE  TTTTT
+//  R   R  E      S      E        T
+//  R   R  EEE     SSS   EEE      T
+//  RRRR   E          S  E        T
+//  R  R   E          S  E        T
+//  R   R  EEEEE  SSSS   EEEEE    T
+// ====================================
+// * * * RESET ET STYLES PAR DÉFAUT */
+
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -16,7 +29,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* --- HEADER --- */
+
+
+/* ===========================================
+//  H   H  EEEEE    A    DDD    EEEEE  RRRR
+//  H   H  E       A A   D  D   E      R   R
+//  HHHHH  EEE    A   A  D   D  EEE    R   R
+//  H   H  E      AAAAA  D   D  E      RRRR
+//  H   H  E      A   A  D  D   E      R  R
+//  H   H  EEEEE  A   A  DDD    EEEEE  R   R
+// ===========================================
+// * * * HEADER */
+
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -74,10 +100,24 @@ nav a:hover {
     z-index: 1000;
 }
 
-/* --- MAIN CONTENT --- */
+
+
+/* ===========================
+//  M   M    A    III  N   N
+//  MM MM   A A    I   NN  N
+//  M M M  A   A   I   N N N
+//  M   M  AAAAA   I   N  NN
+//  M   M  A   A   I   N   N
+//  M   M  A   A  III  N   N
+// ===========================
+// * * * main content */
+
+
+
 main {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 50px;
     gap: 30px;
     max-width: 1920px;
@@ -89,7 +129,6 @@ main {
     border-radius: 20px;
     padding: 50px;
     flex: 1;
-    height: 80vh;
     max-height: 750px;
 
 }
@@ -103,7 +142,6 @@ main {
     height: auto;
     border-radius: 20px;
     object-fit: cover;
-    height: 80vh;
     max-height: 750px;
 }
 
@@ -156,7 +194,20 @@ p:not(.section p) {
     object-fit: contain;
 }
 
-/* --- CONTAINER ET SECTIONS --- */
+
+
+/* ==============================================================
+//   CCC    OOO   N   N  TTTTT    A    III  N   N  EEEEE  RRRR
+//  C   C  O   O  NN  N    T     A A    I   NN  N  E      R   R
+//  C      O   O  N N N    T    A   A   I   N N N  EEE    R   R
+//  C      O   O  N  NN    T    AAAAA   I   N  NN  E      RRRR
+//  C   C  O   O  N   N    T    A   A   I   N   N  E      R  R
+//   CCC    OOO   N   N    T    A   A  III  N   N  EEEEE  R   R
+// ==============================================================
+// * * * CONTAINER ET SECTIONS */
+
+
+
 .container {
     max-width: 1920px;
     margin: 0 auto;
@@ -186,7 +237,20 @@ p:not(.section p) {
     flex-grow: 0;
 }
 
-/* --- SECTION DÉCOUVERTE --- */
+
+
+/* =======================================================================
+//  DDD    EEEEE   CCC    OOO   U   U  V   V  EEEEE  RRRR   TTTTT  EEEEE
+//  D  D   E      C   C  O   O  U   U  V   V  E      R   R    T    E
+//  D   D  EEE    C      O   O  U   U  V   V  EEE    R   R    T    EEE
+//  D   D  E      C      O   O  U   U   V V   E      RRRR     T    E
+//  D  D   E      C   C  O   O  U   U   V V   E      R  R     T    E
+//  DDD    EEEEE   CCC    OOO    UUU     V    EEEEE  R   R    T    EEEEE
+// =======================================================================
+// * * * SECTION DECOUVERTE */
+
+
+
 #decouverte {
     display: flex;
 }
@@ -250,7 +314,20 @@ p:not(.section p) {
     margin-bottom: 15px;
 }
 
-/* --- SECTION SHOWCASE --- */
+
+
+/* =========================================================
+//   SSS   H   H   OOO   W   W   CCC     A     SSS   EEEEE
+//  S      H   H  O   O  W   W  C   C   A A   S      E
+//   SSS   HHHHH  O   O  W   W  C      A   A   SSS   EEE
+//      S  H   H  O   O  W W W  C      AAAAA      S  E
+//      S  H   H  O   O  W W W  C   C  A   A      S  E
+//  SSSS   H   H   OOO    W W    CCC   A   A  SSSS   EEEEE
+// =========================================================
+// * * * SECTION SHOWCASE */
+
+
+
 .showcase-section {
     display: flex;
     justify-content: space-between;
@@ -258,11 +335,13 @@ p:not(.section p) {
     gap: 20px;
 }
 
-.left-image, .right-image {
+.left-image,
+.right-image {
     width: 25%;
 }
 
-.left-image img, .right-image img {
+.left-image img,
+.right-image img {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -283,8 +362,8 @@ p:not(.section p) {
     border-radius: 10px;
     padding: 7%;
 }
-#faq
-.center-logo p {
+
+#faq .center-logo p {
     color: white;
     margin-bottom: 20px;
     font-size: 14px;
@@ -296,7 +375,20 @@ p:not(.section p) {
     max-width: 200px;
 }
 
-/* --- SECTION FAQ --- */
+
+
+/* ======================
+//  FFFFF    A     QQQ
+//  F       A A   Q   Q
+//  FFF    A   A  Q   Q
+//  F      AAAAA  Q Q Q
+//  F      A   A  Q  Q
+//  F      A   A   QQ Q
+// ======================
+// * * * FAQ */
+
+
+
 .faq-section h2 {
     text-align: center;
     margin-bottom: 30px;
@@ -308,6 +400,10 @@ p:not(.section p) {
     border-bottom: 1px solid #eee;
     margin-bottom: 15px;
     padding-bottom: 15px;
+
+    &:last-child {
+        border-bottom: none;
+    }
 }
 
 .faq-question {
@@ -324,12 +420,29 @@ p:not(.section p) {
     color: #333;
 }
 
-#fonctionnement, #who, #infra, #secu, #how {
+#fonctionnement,
+#who,
+#infra,
+#secu,
+#how {
     font-size: 14px;
     display: none;
 }
 
-/* --- SECTION ABONNEMENT --- */
+
+
+/* =====================================================================
+//  FFFFF   OOO   RRRR   M   M  U   U  L        A    III  RRRR   EEEEE
+//  F      O   O  R   R  MM MM  U   U  L       A A    I   R   R  E
+//  FFF    O   O  R   R  M M M  U   U  L      A   A   I   R   R  EEE
+//  F      O   O  RRRR   M   M  U   U  L      AAAAA   I   RRRR   E
+//  F      O   O  R  R   M   M  U   U  L      A   A   I   R  R   E
+//  F       OOO   R   R  M   M   UUU   LLLLL  A   A  III  R   R  EEEEE
+// =====================================================================
+// * * * FORMULAIRE */
+
+
+
 .subscribe-section {
     display: flex;
     gap: 30px;
@@ -386,7 +499,8 @@ p:not(.section p) {
     color: #666;
 }
 
-.form-group input, .form-group select {
+.form-group input,
+.form-group select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -422,7 +536,21 @@ p:not(.section p) {
     width: 55%;
 }
 
-/* --- FOOTER --- */
+
+
+
+/* ===========================================
+//  FFFFF   OOO    OOO   TTTTT  EEEEE  RRRR
+//  F      O   O  O   O    T    E      R   R
+//  FFF    O   O  O   O    T    EEE    R   R
+//  F      O   O  O   O    T    E      RRRR
+//  F      O   O  O   O    T    E      R  R
+//  F       OOO    OOO     T    EEEEE  R   R
+// ===========================================
+// * * * FOOTER */
+
+
+
 .footer {
     border-top: 1px solid #e0e0e0;
     padding: 20px 0;
@@ -446,7 +574,7 @@ p:not(.section p) {
 
 .footer-logo img {
     height: 50px;
-    width: auto; 
+    width: auto;
 }
 
 .footer-nav {

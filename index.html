@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,38 +10,72 @@
     <link rel="manifest" href="manisfest/manifest/manifest.json">
 
     <title>InfraLoc - Valorisez vos salles, facilitez vos événements</title>
+
+    <!-- Balises meta SEO essentielles -->
+    <meta name="description"
+        content="InfraLoc simplifie la gestion et la réservation de salles et d'équipements pour les collectivités et les institutions publiques.">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords"
+        content="réservation salle, gestion infrastructure, collectivités, événements, équipements publics">
+
+    <!-- Open Graph pour le partage sur les réseaux sociaux -->
+    <meta property="og:title" content="InfraLoc - Valorisez vos salles, facilitez vos événements">
+    <meta property="og:description"
+        content="Simplifiez la gestion et la réservation de vos salles et équipements avec InfraLoc.">
+    <meta property="og:image" content="https://infra-loc.fr/img/logo-infraloc.svg">
+    <meta property="og:url" content="https://infra-loc.fr">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="InfraLoc - Valorisez vos salles, facilitez vos événements">
+    <meta name="twitter:description"
+        content="InfraLoc, la solution intuitive pour gérer vos infrastructures et équipements publics.">
+    <meta name="twitter:image" content="https://infra-loc.fr/img/logo-infraloc.svg">
+
+
+    <!-- CDN EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <img src="img/logo-infraloc.svg" alt="InfraLoc Logo">
+            <img src="img/logo-infraloc.svg" alt="InfraLoc Logo" title="Logo d'InfraLoc">
         </div>
         <nav>
-            <a href="#decouverte">Découvrir InfraLoc</a>
-            <a href="#">Abonnement</a>
-            <a href="#faq">FAQ</a>
-            <a href="#" class="connect-btn">S'inscrire</a>
+            <a href="#decouverte" title="Venez découvrir InfraLoc">Découvrir InfraLoc</a>
+            <!-- <a href="#">Abonnement</a> -->
+            <a href="#faq" title="Des questions ? Lisez la FAQ">FAQ</a>
+            <!-- <a href="#" title="" class="connect-btn">S'inscrire</a> -->
         </nav>
     </header>
     <main>
         <div class="content-left">
             <h1>Valorisez vos salles, facilitez vos événements</h1>
-            <p>Simplifiez la gestion de vos infrastructures, valorisez vos équipements et gagnez du temps avec notre solution intuitive.</p>
-            <p>Facilitez l'accès à la réservation de salles et d'équipements, en quelques clics, pour vos usagers, garantissant une organisation des événements fluides et efficaces.</p>
-            
+            <p>
+                Simplifiez la gestion de vos infrastructures, valorisez vos équipements et gagnez du temps avec notre
+                solution intuitive.
+            </p>
+            <p>
+                Facilitez l'accès à la réservation de salles et d'équipements, en quelques clics, pour vos usagers,
+                garantissant une organisation des événements fluides et efficaces.
+            </p>
+
             <div class="cta-buttons">
-                <a href="#decouverte" class="discover-btn">Découvrir InfraLoc</a>
-                <a href="#" class="interest-btn">Je suis intéressé.e</a>
+                <a href="#decouverte" title="Venez découvrir Infraloc" class="discover-btn">Découvrir InfraLoc</a>
+                <a href="#subscribe-form" title="Formulaire de contact" class="interest-btn">Je suis intéressé(e)</a>
             </div>
-            
+
             <div class="clients">
-                <img src="img/logovillecaenndie.jpg" alt="Caen">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="img/logovillecaenndie.jpg" alt="Caen" title="Caen">
+                <!-- <img src="" alt="" title=""> -->
+                <!-- <img src="" alt=""> -->
             </div>
         </div>
         <div class="content-right">
-            <img src="img/Caen.jpg" alt="">
+            <img src="img/Caen.jpg" alt="Abbaye aux Hommes de Caen" title="Abbaye aux Hommes de Caen">
         </div>
     </main>
     <div class="container">
@@ -48,69 +83,75 @@
             <div class="left">
                 <h2>Découvrez tout ce que notre application peut faire pour vous</h2>
                 <div class="discover-text">
-                    <p>Simplifiez la gestion de vos infrastructures, valorisez vos équipements et gagnez du temps avec notre solution intuitive.</p>
-                    <p>Facilitez l'accès à la réservation de salles et d'équipements en quelques clics, pour vos usagers, garantissant une organisation des événements fluides et efficaces.</p>
+                    <p>Simplifiez la gestion de vos infrastructures, valorisez vos équipements et gagnez du temps avec
+                        notre solution intuitive.</p>
+                    <p>Facilitez l'accès à la réservation de salles et d'équipements en quelques clics, pour vos
+                        usagers, garantissant une organisation des événements fluides et efficaces.</p>
                 </div>
             </div>
             <div class="right">
-                
+
                 <div class="features-grid">
                     <div class="feature-item">
                         <div class="feature-icon">
-                            <img src="img/icone-reservations.svg" alt="Réservations">
+                            <img src="img/icone-reservations.svg" alt="Réservations" title="">
                         </div>
                         <div class="feature-content">
                             <h3>Réservations simplifiées</h3>
-                            <p class="haut">Accédez à l'ensemble des disponibilités et réservez en quelques clics les ressources dont vous avez besoin pour vos événements.</p>
+                            <p class="haut">Accédez à l'ensemble des disponibilités et réservez en quelques clics les
+                                ressources dont vous avez besoin pour vos événements.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">
-                            <img src="img/icone-statistiques.svg" alt="Statistiques">
+                            <img src="img/icone-statistiques.svg" alt="Statistiques" title="">
                         </div>
                         <div class="feature-content">
                             <h3>Statistiques détaillées</h3>
-                            <p class="haut">Visualisez l'usage de vos infrastructures et équipements afin d'optimiser leur utilisation et de mieux planifier vos besoins.</p>
+                            <p class="haut">Visualisez l'usage de vos infrastructures et équipements afin d'optimiser
+                                leur utilisation et de mieux planifier vos besoins.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">
-                            <img src="img/icone-communication.svg" alt="Communication">
+                            <img src="img/icone-communication.svg" alt="Communication" title="">
                         </div>
                         <div class="feature-content">
                             <h3>Communication centralisée</h3>
-                            <p>Échangez facilement avec les utilisateurs de vos salles et suivez en temps réel les échanges liés aux réservations d'espaces.</p>
+                            <p>Échangez facilement avec les utilisateurs de vos salles et suivez en temps réel les
+                                échanges liés aux réservations d'espaces.</p>
                         </div>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">
-                            <img src="img/icone-site.svg" alt="Vue centralisée">
+                            <img src="img/icone-site.svg" alt="Vue centralisée" title="">
                         </div>
                         <div class="feature-content">
                             <h3>Vue centralisée</h3>
-                            <p>Obtenez un aperçu détaillé et en temps réel de l'ensemble de vos espaces et équipements, facilitant leur gestion centralisée.</p>
+                            <p>Obtenez un aperçu détaillé et en temps réel de l'ensemble de vos espaces et équipements,
+                                facilitant leur gestion centralisée.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </section>
         <section class="section showcase-section" id="section3">
             <div class="left-image">
-                <img src="img/pexels-photo-29803443.jpeg" alt="Bâtiment avec jardin">
+                <img src="img/pexels-photo-29803443.jpeg" alt="Bâtiment avec jardin" title="">
             </div>
             <div class="center">
                 <p id="Sec3p">InfraLoc, la clé pour la gestion et la réservation des infrastructures publiques.</p>
                 <div class="center-logo">
-                    <img src="img/logo-blanc.svg" alt="InfraLoc Logo">
+                    <img src="img/logo-blanc.svg" alt="InfraLoc Logo" title="">
                 </div>
             </div>
             <div class="right-image">
-                <img src="img/SalleMarriage.jpg"  alt="Intérieur de salle">
+                <img src="img/SalleMarriage.jpg" alt="Intérieur de salle" title="">
             </div>
         </section>
 
-        <section class="section faq-section"  id="faq">
+        <section class="section faq-section" id="faq">
             <h2>Foire aux questions</h2>
             <div class="faq-item">
                 <div class="faq-question" id="p-fonctionnement">
@@ -118,7 +159,8 @@
                     <span class="faq-icon" id="toggle-icon">+</span>
                 </div>
                 <div class="reponse">
-                    <p id="fonctionnement"><i>L'utilisation InfraLoc est simple sélectionner votre salle dans notre </i></p>
+                    <p id="fonctionnement"><i>L'utilisation InfraLoc est simple sélectionner votre salle dans notre </i>
+                    </p>
                 </div>
             </div>
             <div class="faq-item" id="p-who">
@@ -132,11 +174,11 @@
             </div>
             <div class="faq-item">
                 <div class="faq-question" id="p-infra">
-                    <p>Quels types d'infrastructures sont compatibles avec InfraLoc ?</p>
+                    <p>Quelles infrastructures seront gérables avec InfraLoc ?</p>
                     <span class="faq-icon" id="toggle-infra">+</span>
                 </div>
                 <div class="reponse">
-                    <p id="infra"><i>L'utilisation InfraLoc est simple sélectionner votre salle dans notre </i></p>
+                    <p id="infra"><i>...</i></p>
                 </div>
             </div>
             <div class="faq-item">
@@ -145,9 +187,15 @@
                     <span class="faq-icon" id="toggle-secu">+</span>
                 </div>
                 <div class="reponse">
-                    <p id="secu"><i>Notre site garantit une sécurité totale à nos utilisateurs, que ce soit pour le stockage de leurs données personnelles ou pour les transactions de paiement.<br> Nous mettons un point d'honneur à protéger vos informations sensibles grâce à des protocoles de sécurité avancés. <br>
-                        Toutes les données sont cryptées et sécurisées afin d'assurer une confidentialité absolue. De plus, 
-                        notre système de paiement est certifié et conforme aux normes les plus strictes en matière de sécurité financière, vous permettant de faire vos transactions en toute tranquillité d'esprit. Vous pouvez donc naviguer et acheter sur notre site en toute confiance.</i></p>
+                    <p id="secu"><i>Notre site garantit une sécurité totale à nos utilisateurs, que ce soit pour le
+                            stockage de leurs données personnelles ou pour les transactions de paiement.<br> Nous
+                            mettons un point d'honneur à protéger vos informations sensibles grâce à des protocoles de
+                            sécurité avancés. <br>
+                            Toutes les données sont cryptées et sécurisées afin d'assurer une confidentialité absolue.
+                            De plus,
+                            notre système de paiement est certifié et conforme aux normes les plus strictes en matière
+                            de sécurité financière, vous permettant de faire vos transactions en toute tranquillité
+                            d'esprit. Vous pouvez donc naviguer et acheter sur notre site en toute confiance.</i></p>
                 </div>
             </div>
             <div class="faq-item">
@@ -167,30 +215,30 @@
                 <h2>Abonnez-vous à InfraLoc dès maintenant !</h2>
                 <p>Une solution qui répond à tous vos besoins d'infrastructures en toute simplicité.</p>
                 <div class="logos-container">
-                    <img src="logo-caen.png" alt="Caen">§
+                    <!-- <img src="logo-caen.png" alt="Caen">§
                     <img src="logo-metropole.png" alt="Logo Métropole">
-                    <img src="logo-region.png" alt="Logo Région">
+                    <img src="logo-region.png" alt="Logo Région"> -->
                 </div>
             </div>
-            <div class="subscribe-form">
+            <form id="subscribe-form" class="subscribe-form">
                 <div class="form-row">
                     <div class="form-group">
                         <label for="nom">Nom</label>
-                        <input type="text" id="nom" name="nom">
+                        <input type="text" id="nom" name="nom" required>
                     </div>
                     <div class="form-group">
                         <label for="prenom">Prénom</label>
-                        <input type="text" id="prenom" name="prenom">
+                        <input type="text" id="prenom" name="prenom" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-row">
                     <div class="form-group">
                         <label for="entreprise">Commune</label>
-                        <input type="text" id="entreprise" name="entreprise">
+                        <input type="text" id="entreprise" name="entreprise" required>
                     </div>
                     <div class="form-group">
                         <label for="telephone">Téléphone</label>
@@ -199,39 +247,42 @@
                 </div>
                 <div class="form-group">
                     <label for="sujet">Sujet de la demande</label>
-                    <input type="text" id="sujet" name="sujet">
+                    <input type="text" id="sujet" name="sujet" required>
                 </div>
                 <div class="checkbox-group">
                     <input type="checkbox" id="cgu" name="cgu">
-                    <label for="cgu">J'accepte les conditions générales d'utilisation et la politique de confidentialité</label>
+                    <label for="cgu">J'accepte les conditions générales d'utilisation et la politique de
+                        confidentialité</label>
                 </div>
                 <button type="submit" class="submit-button">Envoyer ma demande</button>
-            </div>
+            </form>
         </section>
     </div>
-    
+
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-logo">
-                <a href="/">
-                    <img src="img/logo-infraloc.svg" alt="InfraLoc Logo">
+                <a href="/" title="Revenir à la page d'accueil">
+                    <img src="img/logo-infraloc.svg" alt="InfraLoc Logo" title="Logo d'InfraLoc">
                 </a>
             </div>
-            
+
             <div class="footer-nav">
-                <a href="#">L'application</a>
-                <a href="#">Tarifs</a>
-                <a href="#faq">FAQ</a>
+                <a href="#" title="Aller voir l'application">L'application</a>
+                <a href="#" title="Voir les tarifs">Tarifs</a>
+                <a href="#faq" title="Des questions ? Lisez la FAQ">FAQ</a>
             </div>
         </div>
-        
+
         <div class="footer-bottom">
-            <a href="#">Conditions générales</a>
+            <a href="#" title="Conditions générales d'utilisation">Conditions générales</a>
             <span>© 2025 InfraLoc. Tout droits réservés</span>
-            <a href="#">Mentions légales</a>
+            <a href="#" title="Mentions légales du site">Mentions légales</a>
         </div>
     </footer>
+    <script src="js/main.js"></script>
     <script src="js/app.js"></script>
     <script src="js/menu.js"></script>
 </body>
+
 </html>
