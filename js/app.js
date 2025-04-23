@@ -7,9 +7,11 @@ const paragraphe = document.getElementById('fonctionnement');
 iconP.addEventListener('click', function () {
     if (icon.textContent === '+') {
         icon.textContent = '-';
+        iconP.style.fontWeight = "bold";
         paragraphe.style.display = 'initial';
     } else {
         icon.textContent = '+';
+        iconP.style.fontWeight = "normal";
         paragraphe.style.display = 'none';
     }
 });
@@ -23,9 +25,11 @@ const whocontent = document.getElementById('who');
 who.addEventListener('click', function () {
     if (whoP.textContent === '+') {
         whoP.textContent = '-';
+        who.style.fontWeight = "bold";
         whocontent.style.display = 'initial';
     } else {
         whoP.textContent = '+';
+        who.style.fontWeight = "normal";
         whocontent.style.display = 'none';
     }
 });
@@ -39,9 +43,11 @@ const infraContent = document.getElementById('infra');
 infra.addEventListener('click', function () {
     if (infraP.textContent === '+') {
         infraP.textContent = '-';
+        infra.style.fontWeight = "bold";
         infraContent.style.display = 'initial';
     } else {
         infraP.textContent = '+';
+        infra.style.fontWeight = "normal";
         infraContent.style.display = 'none';
     }
 });
@@ -55,9 +61,12 @@ const howContent = document.getElementById('how');
 how.addEventListener('click', function () {
     if (howP.textContent === '+') {
         howP.textContent = '-';
+        how.style.fontWeight = "bold";
         howContent.style.display = 'initial';
     } else {
         howP.textContent = '+';
+        how.style.fontWeight = "normal";
+
         howContent.style.display = 'none';
     }
 });
@@ -71,9 +80,11 @@ const secuContent = document.getElementById('secu');
 secu.addEventListener('click', function () {
     if (secuP.textContent === '+') {
         secuP.textContent = '-';
+        secu.style.fontWeight = "bold";
         secuContent.style.display = 'initial';
     } else {
         secuP.textContent = '+';
+        secu.style.fontWeight = "normal";
         secuContent.style.display = 'none';
     }
 });

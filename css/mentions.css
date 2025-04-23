@@ -1,0 +1,21 @@
+main{
+    width: 70%;
+    padding: 5%;
+    margin:auto auto;
+    background-color: white;
+    text-align: justify;
+}
+
+h1{
+    margin-bottom:20px ;
+    color: #f39c12;
+    text-align: center;
+}
+
+h2{
+    margin-bottom:5px ;
+    color: #f39c12;
+}
+p{
+    margin-bottom:15px;
+}

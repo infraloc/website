@@ -1,106 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-
-/* ====================================
-//  RRRR   EEEEE   SSS   EEEEE  TTTTT
-//  R   R  E      S      E        T
-//  R   R  EEE     SSS   EEE      T
-//  RRRR   E          S  E        T
-//  R  R   E          S  E        T
-//  R   R  EEEEE  SSSS   EEEEE    T
-// ====================================
-// * * * RESET ET STYLES PAR DÉFAUT */
-
-
-
-html {
-    scroll-behavior: smooth;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #E9E9E9;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-
-/* ===========================================
-//  H   H  EEEEE    A    DDD    EEEEE  RRRR
-//  H   H  E       A A   D  D   E      R   R
-//  HHHHH  EEE    A   A  D   D  EEE    R   R
-//  H   H  E      AAAAA  D   D  E      RRRR
-//  H   H  E      A   A  D  D   E      R  R
-//  H   H  EEEEE  A   A  DDD    EEEEE  R   R
-// ===========================================
-// * * * HEADER */
-
-
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    height: 60px;
-}
-
-nav {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    transition: 0.4s;
-}
-
-nav a:hover {
-    color: #e9913a;
-}
-
-.connect-btn {
-    background-color: #e9913a;
-    color: white;
-    padding: 15px 25px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.connect-btn:hover {
-    color: white;
-    background-color: #253147;
-}
-
-/* --- MENU HAMBURGER (caché par défaut) --- */
-.menu-toggle {
-    display: none;
-    cursor: pointer;
-    z-index: 1000;
-}
-
-
 
 /* ===========================
 //  M   M    A    III  N   N
@@ -128,6 +25,7 @@ main {
     border-radius: 20px;
     padding: 50px;
     flex: 1;
+    min-height: 65vh;
     max-height: 750px;
 
 }
@@ -141,6 +39,8 @@ main {
     height: 100%;
     border-radius: 20px;
     object-fit: cover;
+    min-height: 65vh;
+
     max-height: 750px;
 }
 
@@ -533,83 +433,4 @@ p:not(.section p) {
 .right {
     display: inline-block;
     width: 55%;
-}
-
-
-
-
-/* ===========================================
-//  FFFFF   OOO    OOO   TTTTT  EEEEE  RRRR
-//  F      O   O  O   O    T    E      R   R
-//  FFF    O   O  O   O    T    EEE    R   R
-//  F      O   O  O   O    T    E      RRRR
-//  F      O   O  O   O    T    E      R  R
-//  F       OOO    OOO     T    EEEEE  R   R
-// ===========================================
-// * * * FOOTER */
-
-
-
-.footer {
-    border-top: 1px solid #e0e0e0;
-    padding: 20px 0;
-    width: 100%;
-    background-color: #ffffff;
-}
-
-.footer-container {
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.footer-logo {
-    display: flex;
-    align-items: center;
-}
-
-.footer-logo img {
-    height: 50px;
-    width: auto;
-}
-
-.footer-nav {
-    display: flex;
-    gap: 20px;
-}
-
-.footer-nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-}
-
-.footer-nav a:hover {
-    color: #f39c12;
-}
-
-.footer-bottom {
-    border-top: 1px solid #e0e0e0;
-    margin-top: 20px;
-    padding-top: 20px;
-    text-align: center;
-    font-size: 14px;
-    color: #666;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.footer-bottom a {
-    color: #666;
-    text-decoration: none;
-}
-
-.footer-bottom a:hover {
-    color: #f39c12;
 }
